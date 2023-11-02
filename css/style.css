@@ -99,7 +99,7 @@ main {
     display: inline-block;
     font-size: 16px;
     margin: 2px 2px;
-    transition-duration: 0.1s;
+    transition-duration: 0.5s;
     cursor: pointer;
     border-radius: 12px;
 }
@@ -238,6 +238,7 @@ input[type="submit"]:hover{
     height: auto;
     border-radius: 5px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 
@@ -246,7 +247,7 @@ input[type="submit"]:hover{
     color: #333;
     margin-top: 10px;
     text-align:left;
-    line-height: 2;
+    line-height: 30px;
 }
 
 .nosotros h2{
@@ -263,7 +264,7 @@ input[type="submit"]:hover{
 }
 
 .store-container {
-    max-width: 650px;
+    max-width: 1000px;
     margin: 0 auto;
     text-align: center;
 }
@@ -443,6 +444,8 @@ input[type="submit"]:hover{
     font-weight: bold;
 }
 
+
+
 @media (max-width: 768px) {
     .nav-custom ul {
         display: none;
@@ -470,4 +473,13 @@ input[type="submit"]:hover{
     .preguntas-freq h1{
         font-size: 25px;
     }
+
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 150px;
+        height: 25px;
+    }
+
 }
